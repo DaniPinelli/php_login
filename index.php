@@ -1,19 +1,17 @@
 <?php
-include("partials/header.php");
+require("partials/header.php");
 ?>
 
 
 
- <h1>Login or Singup</h1>
-
- <a href="login.php">Login</a> or <a href="signup.php">Signup</a>    
 
 
-<?php 
 
-echo "Works"
+<h1>Login or Sign Up</h1>
+
+ <a href="login.php">Login</a> or <a href="signup.php">Sign Up</a>    
 
 
-?><?php
-include("partials/footer.php");
+<?php
+require("partials/footer.php");
 ?>

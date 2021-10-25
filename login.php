@@ -1,6 +1,6 @@
 
 <?php
-include("partials/header.php");
+require("partials/header.php");
 ?>
 
 <h1>Login</h1>
@@ -21,5 +21,5 @@ include("partials/header.php");
   </form>  
 
 <?php
-include("partials/footer.php");
+require("partials/footer.php");
 ?>
