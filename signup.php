@@ -21,17 +21,15 @@ $message = "";
  }
 ?>
 
-<?php
+<?php if(!empty($message)): ?>
+  <p> <?php $message ?> </p>
 
- if(!empty($message)) {
-    echo $message;
- }
-
-?>
+  <?php endif; ?> 
+ 
 
  <h1>Sign Up</h1>
 
- or <a href="signup.php">Login</a>   
+ or <a href="login.php">Login</a>   
 
 
 
